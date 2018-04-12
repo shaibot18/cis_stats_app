@@ -1,12 +1,11 @@
 const https = require('https');
-// const querystring = require('querystring');
 const moment = require('moment');
 const _ = require('underscore');
 
 let openHour = "9:00";
 let closeHour = "19:00";
-let startDate = "2018-04-02";
-let endDate = "2018-04-04"
+let startDate = "2018-04-03";
+let endDate = "2018-04-03"
 
 let qStart = moment(new Date(`${startDate} ${openHour}`));
 let qEnd = moment(new Date(`${endDate} ${closeHour}`));
